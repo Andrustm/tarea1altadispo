@@ -1,6 +1,6 @@
 const { Router }=require('express');
 const router = Router();
-const pool = require("../../pokemon_db");
+const pool = require("../../db");
 const cors=require('cors');
 
 router.get('/',(req,res) =>{
